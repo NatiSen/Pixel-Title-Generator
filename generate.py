@@ -131,7 +131,7 @@ letter_map = {
 
 WIDTH_PER_LETTER = 6  # 5 pixels + 1 spacing
 HEIGHT = 7
-TEXT = "I AM FULL STACK DEV"
+TEXT = "I'M FULL STACK DEV"
 
 NUM_LETTERS = len(TEXT)
 
