@@ -192,7 +192,16 @@ def create_svg(text):
         x_cursor += WIDTH_PER_LETTER
 
     # Obramowanie
-    svg.append(f'<rect x="0" y="0" width="{SVG_WIDTH}" height="{SVG_HEIGHT}" fill="none" stroke="#196bbd" stroke-width="4" />')
+    svg.append(f'''<rect 
+    x="0" y="0" 
+    width="{SVG_WIDTH}" height="{SVG_HEIGHT}" 
+    fill="none" 
+    stroke="#ecd2bb" 
+    stroke-width="2" 
+    stroke-dasharray="10,5"
+    rx="20" ry="20"
+/>''')
+
 
     svg.append('</svg>')
 
